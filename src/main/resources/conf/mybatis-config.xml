@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <typeAliases>
+        <typeAlias alias="IntegerArrayTypeHandler" type="com.manniwood.mmpt.typehandlers.IntegerArrayTypeHandler"/>
+        <package name="com.zml.app.user.model"/>
+    </typeAliases>
+
+    <typeHandlers>
+        <package name="com.manniwood.mmpt.typehandlers"/>
+    </typeHandlers>
+
+    <mappers>
+    <!-- 映射文件 -->
+    </mappers>
+</configuration>
